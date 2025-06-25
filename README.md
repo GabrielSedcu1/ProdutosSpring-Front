@@ -1,38 +1,84 @@
 🛍️ Products Front - Frontend
-Aplicação frontend desenvolvida com React, Bootstrap e Axios, projetada para o gerenciamento de produtos. Permite adicionar novos produtos com nome e preço, além de editar e excluir produtos existentes.
+
+Este é o frontend do projeto **Products Front**, desenvolvido com **React**, **Bootstrap** e **Axios**. Ele fornece uma interface amigável para gerenciar produtos, permitindo adicionar, editar e excluir itens facilmente.
+
+🔗 Repositório: [ProdutosSpring-Front](https://github.com/GabrielSedcu1/ProdutosSpring-Front.git)
+
+---
 
 🚀 Tecnologias Utilizadas
-⚛️ React – Biblioteca para construção da interface
 
-🎨 Bootstrap – Framework para estilos e responsividade
+✅ React 18  
+✅ Bootstrap 5  
+✅ Axios  
+✅ Node.js (para ambiente de desenvolvimento)  
+✅ NPM (gerenciador de pacotes)  
 
-📡 Axios – Cliente HTTP para comunicação com o backend
+---
 
-📂 Estrutura do Projeto
+⚙️ Como rodar o projeto localmente
+
+### ✅ Pré-requisitos
+
+- Node.js e npm instalados na sua máquina  
+- Editor de código (VSCode, WebStorm, etc)  
+- Backend do projeto rodando na porta 9090 (para comunicação via API)  
+
+### ▶️ Passos para rodar:
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/GabrielSedcu1/ProdutosSpring-Front.git
+cd ProdutosSpring-Front
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+Inicie a aplicação React em modo de desenvolvimento:
+
+bash
+Copiar
+Editar
+npm start
+A aplicação abrirá automaticamente no navegador em:
+👉 http://localhost:3000
+
+⚠️ Certifique-se de que o backend está rodando na porta 9090 para que o frontend funcione corretamente.
+
+📁 Estrutura de Pastas
+
 csharp
 Copiar
 Editar
 PRODUCTS-FRONT/
-├── node_modules/        # Dependências do projeto
-├── public/              # Arquivos públicos estáticos
-├── src/                 # Código fonte
-│   ├── App.css          # Estilos principais
-│   ├── App.js           # Componente principal
-│   ├── index.js         # Ponto de entrada
-│   └── ...              # Outros arquivos auxiliares
-├── package.json         # Configuração e scripts
-└── README.md            # Documentação do projeto
-🖥️ Como usar
-Cadastrar Produto: Insira o nome e o preço do produto nos campos de formulário e clique em "Adicionar Produto".
+├── node_modules/         # Dependências do projeto
+├── public/               # Arquivos públicos estáticos
+├── src/                  # Código fonte do frontend
+│   ├── App.js            # Componente principal da aplicação
+│   ├── App.css           # Estilos principais
+│   ├── index.js          # Ponto de entrada do React
+│   └── components/       # Componentes auxiliares (se houver)
+├── package.json          # Configuração do projeto e scripts npm
+└── README.md             # Documentação do projeto
+🖥️ Funcionalidades Principais
 
-Editar Produto: Ao lado de cada produto, você verá um ícone de "editar". Ao clicar, os dados do produto serão carregados nos campos de cadastro para edição.
+Adicionar Produto: Formulário para inserir nome e preço de novos produtos.
 
-Excluir Produto: Ao lado de cada produto, há também um ícone de "lixeira" que permite excluir o produto da lista.
+Editar Produto: Permite alterar dados do produto existente.
 
-📋 Funcionalidades:
-Adicionar novo produto (nome e preço).
+Excluir Produto: Remove produtos da lista com confirmação.
 
-Editar informações de um produto.
+Listar Produtos: Visualização de todos os produtos cadastrados.
 
-Excluir produto da lista.
+🧪 Testando a Aplicação
+
+Use o frontend via navegador em http://localhost:3000 para interagir com os produtos.
+
+Para testar diretamente a API, utilize o backend rodando na porta 9090 e faça requisições REST via Postman ou Insomnia.
+
+📚 Referências
+
+Este projeto serve como base para aplicações web integradas, utilizando React no frontend e Spring Boot no backend, visando uma arquitetura moderna e eficiente.
 
